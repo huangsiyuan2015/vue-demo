@@ -1,0 +1,44 @@
+{
+  "id": "3394543",
+  "name": "vue.demo",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1265484",
+      "name": "加号",
+      "font_class": "jiahao",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "201228",
+      "name": "3.1我的",
+      "font_class": "31wode",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "201574",
+      "name": "3.1-消息",
+      "font_class": "31xiaoxi",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "2121731",
+      "name": "公文包",
+      "font_class": "gongwenbao",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "4055804",
+      "name": "房子",
+      "font_class": "fangzi",
+      "unicode": "e8ff",
+      "unicode_decimal": 59647
+    }
+  ]
+}

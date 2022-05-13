@@ -22,7 +22,7 @@
       </label>
     </div>
 
-    <div class="btn">登录</div>
+    <div class="btn" @click="login">登录</div>
 
     <div class="link">
       <span>立即注册</span> |
@@ -32,6 +32,17 @@
     <div class="footer">游客进入</div>
   </div>
 </template>
+
+<script>
+export default {
+  name: "Login",
+  methods: {
+    login() {
+      this.$router.push("/");
+    },
+  },
+};
+</script>
 
 <style scoped>
 .login {
