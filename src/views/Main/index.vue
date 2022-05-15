@@ -20,7 +20,7 @@ export default {
     title() {
       let current = this.$route.path.slice(1);
       const titles = {
-        index: "今招聘",
+        home: "今招聘",
         job: "职位",
         publish: "发布",
         message: "消息",
@@ -33,4 +33,7 @@ export default {
 </script>
 
 <style scoped>
+.main {
+  padding: 0 0.8rem;
+}
 </style>

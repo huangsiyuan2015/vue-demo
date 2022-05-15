@@ -2,8 +2,8 @@
   <div class="tab">
     <div
       class="item"
-      :class="{ active: current === 'index' }"
-      @click="handleClick('index')"
+      :class="{ active: current === 'home' }"
+      @click="handleClick('home')"
     >
       <div class="icon iconfont">&#xe8ff;</div>
       <div class="text">首页</div>
@@ -50,7 +50,7 @@ export default {
   name: "Tab",
   data() {
     return {
-      current: "index",
+      current: "home",
     };
   },
   methods: {
@@ -69,11 +69,12 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
+  background-color: #fff;
 }
 
 .tab > .item {
   flex: 1 0 auto;
-  padding: 0.8rem 0 0.4rem 0;
+  padding: 0.8rem 0;
   text-align: center;
   font-size: 0.2rem;
 }

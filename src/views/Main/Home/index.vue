@@ -1,18 +1,24 @@
 <template>
-  <div class="job">
+  <div class="index">
     <Search />
+    <Carousel />
+    <Icons />
     <Content />
   </div>
 </template>
 
 <script>
 import Search from "@/components/Search";
+import Carousel from "./Carousel";
+import Icons from "./Icons";
 import Content from "@/components/Content";
 
 export default {
-  name: "Job",
+  name: "Index",
   components: {
     Search,
+    Carousel,
+    Icons,
     Content,
   },
 };
