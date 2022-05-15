@@ -12,6 +12,11 @@ export default {
 
 <style scoped>
 .banner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: #fff;
   height: 4rem;
   line-height: 4rem;
   font-size: 1.4rem;

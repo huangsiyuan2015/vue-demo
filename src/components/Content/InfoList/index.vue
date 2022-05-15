@@ -150,7 +150,7 @@ export default {
 
 <style scoped>
 .info-list {
-  padding-bottom: 4rem;
+  /* padding-bottom: 4rem; */
   background-color: #fbfbfe;
 }
 
